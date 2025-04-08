@@ -16,17 +16,20 @@ uv run mcp
 
 **Usage**: _cp [OPTIONS] COMMAND [ARGS]_
 
- MCP development tools
+### MCP development tools
 
-### Options
+- Options
 
 --help
 
-### **Commands**
+**Commands**
 
 _**version**_   > Show the MCP version
+
 _**dev**_   > Run a MCP server with the MCP Inspector
+
 _**run**_   > Run a MCP Server
+
 _**install**_   > Install a MCP server in the Claude desktop app
 
 **Example** _(open **MCP** dev **Inspector**)_:
