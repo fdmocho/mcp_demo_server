@@ -5,13 +5,9 @@
 uv init mcp-server-demo
 
 cd mcp-server-demo
-```
 
-```Bash
 uv add "mcp[cli]"
-```
 
-```bash
 uv run mcp
 ```
 
