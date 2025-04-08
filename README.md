@@ -1,4 +1,4 @@
-# MCP Example 
+# MCP Server for NASA API integration. 
 
 **NASA NEO** API request by date
 - Near Earth Object information retrieval by date
