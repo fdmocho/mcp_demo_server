@@ -1,5 +1,28 @@
 # MCP Example 
 
+tool NASA NEO API request by date
+Near Earth Object information retrieval by date
+
+```JSON
+{
+  "method": "tools/call",
+  "params": {
+    "name": "getNeo",
+    "arguments": {
+      "start_date": "<START_DATE>",
+      "end_date": "<END_DATE>"
+    },
+    "_meta": {
+      "progressToken": 0
+    }
+  }
+}
+```
+
+**Clone repo and run:**
+```bash
+uv install
+```
 **Create environment**
 ```Bash
 uv init mcp-server-demo

@@ -7,20 +7,14 @@ from mcp.server.fastmcp import FastMCP
 
 NEO_API_KEY = API_KEYS["nasa"]
 
-
 # Create an MCP server
 mcp = FastMCP("Demo")
 
 
-# Add a math tool A + B
-@mcp.tool()
-def add(a: int, b: int) -> int:
-    """Add two numbers"""
-    return a + b
-
 # Add an addition tool for getting NEO json by date
 @mcp.tool()
 async def getNeo(start_date: str, end_date: str = None):
+
     """Get NEO (Nasa's Near Earth Object) by date, if an end date is not provided use start date as end date as well.
 
     Args:
@@ -39,8 +33,6 @@ async def getNeo(start_date: str, end_date: str = None):
     async with httpx.AsyncClient() as client:
         response = await client.get(url, params=params)
         return response.text
-
-
 
 # Add a dynamic greeting resource
 @mcp.resource("greeting://{name}")
