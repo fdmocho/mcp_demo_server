@@ -29,6 +29,10 @@ _getNeo()_
 ```bash
 uv install
 ```
+
+
+### Other instructions (uv examples)
+
 **Create environment**
 ```Bash
 uv init mcp-server-demo
