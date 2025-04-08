@@ -1,7 +1,10 @@
 # MCP Example 
 
+**Create environment**
+```Bash
 uv init mcp-server-demo
 cd mcp-server-demo
+```
 
 ```Bash
 uv add "mcp[cli]"
