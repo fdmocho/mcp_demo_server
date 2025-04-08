@@ -1,7 +1,13 @@
 # MCP Example 
 
-tool NASA NEO API request by date
-Near Earth Object information retrieval by date
+**NASA NEO** API request by date
+- Near Earth Object information retrieval by date
+
+
+**Tools:**
+
+_getNeo()_
+- add your own api key in apiconfig.py (eg: apiconfig.example.py)
 
 ```JSON
 {
