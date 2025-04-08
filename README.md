@@ -3,6 +3,7 @@
 **Create environment**
 ```Bash
 uv init mcp-server-demo
+
 cd mcp-server-demo
 ```
 
