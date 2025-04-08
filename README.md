@@ -26,7 +26,7 @@ _**dev**_   > Run a MCP server with the MCP Inspector
 _**run**_   > Run a MCP Server
 _**install**_   > Install a MCP server in the Claude desktop app
 
-**Example** _(open MCP dev window/browser)_:
+**Example** _(open **MCP** dev **Inspector**)_:
 ```Bash
 uv run mcp dev <MYPYTHONFILE>
 ```
