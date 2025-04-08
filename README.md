@@ -3,6 +3,29 @@
 **NASA NEO** API request by date
 - Near Earth Object information retrieval by date
 
+**Clone repo and run:**
+```bash
+uv install
+```
+
+**Add you mcp server config to your LLM** 
+
+Example Claude config file (_claude_desktop_config.json_)
+```JSON
+{
+    "mcpServers": {
+        "nasa": {
+            "command": "uv",
+                "args": [
+                    "--directory",
+                    "<PATH TO YOUR PY>",
+                    "run",
+                    "main.py"
+                ]
+        }
+    }
+}
+```
 
 **Tools:**
 
@@ -24,13 +47,6 @@ _getNeo()_
   }
 }
 ```
-
-**Clone repo and run:**
-```bash
-uv install
-```
-
-
 ### Other instructions (uv examples)
 
 **Create environment**

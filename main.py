@@ -15,11 +15,11 @@ mcp = FastMCP("Demo")
 @mcp.tool()
 async def getNeo(start_date: str, end_date: str = None):
 
-    """Get NEO (Nasa's Near Earth Object) by date, if an end date is not provided use start date as end date as well.
+    """Get NEO (Nasa's Near Earth Object) by date, if an end date is not provided use start date as end date. Please use YYYY-MM-DD date time format.
 
     Args:
-        startdate: Start date of the request
-        enddate: End date of the request
+        startdate: Start date of the request use YYYY-MM-DD format please
+        enddate: End date of the request use YYYY-MM-DD format please
     """
 
     if end_date is None:
@@ -40,6 +40,6 @@ def get_greeting(name: str) -> str:
     """Get a personalized greeting"""
     return f"Hello, {name}!"
 
-""" if __name__ == "__main__":
+if __name__ == "__main__":
     # Initialize and run the server
-    mcp.run(transport='stdio') """
+    mcp.run(transport='stdio')
